@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1pJKRbXEu5Kffs3Lnhz2npe8AaE2LBXl_/view?usp=shari
 2.inference
 
 ## Model
-using the pretrained Efficientnet-b7
+Using the pretrained Efficientnet-b7
 
 ```
 from efficientnet_pytorch import EfficientNet
@@ -19,3 +19,4 @@ model = EfficientNet.from_pretrained('efficientnet-b7')
 Refer to the github：https://github.com/lukemelas/EfficientNet-PyTorch
 
 ## inference
+Download the model weight and use the inference.py to reproduce answer.txt 
