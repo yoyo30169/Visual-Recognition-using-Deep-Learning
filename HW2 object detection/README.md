@@ -59,6 +59,7 @@ Step3: Recompile the darknet in darknet-master directory:make
 Step4:Preparing the data:HW2.data,test.txt, yolov4-tiny.cfg and yolov4-tiny_last.weights(all provide on github)
 
 Step5:After preparing all the data,we can use command line to produce .json file on folder “results”
+
 ./darknet detector valid cfg/HW2.data cfg/yolov4-tiny.cfg yolov4-tiny_last.weights
 
 Step6: Change all category id:10 to 0 using transform.py code
