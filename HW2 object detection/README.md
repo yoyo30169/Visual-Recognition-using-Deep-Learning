@@ -26,6 +26,7 @@ execute `getlabels.py` to get the ground truth label
 ## Implement
 
 Step1:Git clone the darknet from(or download from) https://github.com/AlexeyAB/darknet
+
 Step2:open the file Makefile,and modify some valus of parameters.
 Change the valus of CUDNN,GPU,OPENCV from 0 to 1
 ```
@@ -38,8 +39,10 @@ Step3: Recompile the darknet in darknet-master directory:make
 make
 ```
 Step4:Preparing the data:training data,ground truth label,and some data that yolov4 needs. For example:.data and .names
+
 Step5:After preparing all the data,we need to modify the yolov4-tiny.cfg file and start to train our own model with the yolov4-tiny pretrained model.
-(6)	Step6: use this command line to train: 
+
+Step6: use this command line to train: 
 ./darknet detector train [HW2.data2] [yolov4-tiny.cfg] [yolov4-tiny.weights]
 
 
