@@ -1,0 +1,6 @@
+classes = 10
+train =train.txt
+valid=test.txt
+names =HW2.name
+backup = backup/
+eval=coco
