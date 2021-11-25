@@ -16,7 +16,7 @@ Using the yolov4-tiny
 Refer to the github：https://github.com/AlexeyAB/darknet
 
 ## Get label
-Change the path which is in the `get_labels.py
+Change the path which is in the `get_labels.py`
 ```
 f = h5py.File('./train/digitStruct.mat','r')
 Image.open('./train/'+IMG_NAME)
