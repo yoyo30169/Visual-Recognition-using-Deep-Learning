@@ -8,7 +8,11 @@ VRSL-Final Project
 
 ## Reproduce step
 1.use crop.py(need result.json) to crop testing images to cropped images
+
 2.use inference.py to test all testing image and get submission.csv file
+
 3.use test.py to adjust the submission.csv file to make it meet the kaggle submission requirements
+
 4.we can get newsubmission.csv from step3 and submit the file
+
 
