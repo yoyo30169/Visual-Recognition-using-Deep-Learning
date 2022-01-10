@@ -14,6 +14,9 @@ with open(filename, 'r') as csvfile, tempfile:
         # if row['ID'] == str(stud_ID):
         #     print('updating row', row['ID'])
         #     row['Name'], row['Course'], row['Year'] = stud_name, stud_course, stud_year
+        if row[fields[0]]=='image':
+            writer.writerow(row)
+            continue
         row = {fields[0]: row[fields[0]].replace("image", "test_stg2/image"),
                fields[1]: row[fields[1]],
                fields[2]: row[fields[2]],
