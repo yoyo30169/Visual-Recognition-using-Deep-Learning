@@ -9,7 +9,7 @@ VRSL-Final Project
 ## Reproduce step
 1.use crop.py(need result.json) to crop testing images to cropped images
 
-2.use inference.py to test all testing image and get submission.csv file
+2.download model weight from https://drive.google.com/file/d/1d11iYsiBLPNI7INmQ__jnXBy-ytvrakw/view?usp=sharing and use inference.py to test all testing image and get submission.csv file
 
 3.use test.py to adjust the submission.csv file to make it meet the kaggle submission requirements
 
