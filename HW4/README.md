@@ -8,7 +8,11 @@ Download link of model weight :
 ## Model
 1.EDSR
 
+Using the EDSR Refer to the github：https://github.com/Saafke/EDSR_Tensorflow
+
 2.SwinIR
+
+Using the SwinIR Refer to the github：https://github.com/jingyunliang/swinir and https://github.com/cszn/KAIR
 
 ## Reproduce steps
 Step1:git clone https://github.com/jingyunliang/swinir 
