@@ -1,4 +1,14 @@
 # HW4 image super resolution
+Download link of model weight :
+
+## Introduction
+1.Model
+
+2.Reproduce steps
+## Model
+1.EDSR
+
+2.SwinIR
 
 ## Reproduce steps
 Step1:git clone https://github.com/jingyunliang/swinir 
