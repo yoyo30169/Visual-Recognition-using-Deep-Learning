@@ -1,5 +1,5 @@
 # HW4 image super resolution
-Download link of model weight :
+Download link of model weight :https://drive.google.com/file/d/15yzU04yh1BLmmbS50PiriWFLwrHFmR8Z/view?usp=sharing
 
 ## Introduction
 1.Model
